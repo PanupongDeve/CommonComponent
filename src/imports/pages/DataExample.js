@@ -9,10 +9,14 @@ class DataExample extends Component {
     }
 
     render() {
-        return <FacebookShareButton
+        return (
+        <button>
+            <FacebookShareButton
              url={'google.com'} >
              Hello
              </FacebookShareButton>
+        </button>
+            );
     }
 }
 
